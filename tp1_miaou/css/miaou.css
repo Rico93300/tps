@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
+#contenu {
+	background-color: #29347b;
+	margin: auto;
+	width: 33%;
+}
+header {
+	color: white;
+	text-align: center;
+	background-color: #29347b;
+}
+main {
+	background-color: 29347B;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.div1 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 200px;;
+	height: 200px;
+}
+
+p {
+	text-align: end;
+	color: white;
+    display: flex;
+    justify-content:center;
+}
