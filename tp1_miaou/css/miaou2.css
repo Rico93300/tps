@@ -14,7 +14,6 @@ header {
 	background-color: #29347b;
 }
 
-
 section {
 	width: 100%;
 	display: flex;
@@ -39,17 +38,19 @@ figcaption {
 	text-align: center;
 }
 
-@media screen and (max-width: 1400px){
-    #container{
-        width: 100%;
-    }
+@media screen and (max-width: 1400px) {
+	#container {
+		width: 100%;
+	}
 }
-@media screen and (max-width: 900px){
-    figure {
-        width: 50%;
-    }
+@media screen and (max-width: 900px) {
+	figure {
+		width: 50%;
+	}
 }
 
-@media only screen and (max-width: 450px){
-   
+@media only screen and (max-width: 450px) {
+	figure {
+		width: 100%;
+	}
 }
