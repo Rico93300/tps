@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kufam&family=Shadows+Into+Light+Two&display=swap");
+
+* {
+	font-family: "Cormorant Garamond", serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+#contenu {
+	width: 1024px;
+	background-color: #f6f6f7;
+	margin: auto;
+	color: black;
+}
+header,
+footer {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 100px;
+}
+.tete {
+	text-align: center;
+}
+.merlu {
+	margin-top: 10px;
+}
+ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+main section {
+	display: flex;
+}
+
+section > div {
+	width: 50%;
+}
+.texte {
+	text-align: left;
+	margin: auto;
+	padding: 50px 50px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 20 px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+li {
+	margin: 3px;
+}
+
+h2 {
+	border-bottom: 1px solid black;
+	text-transform: uppercase;
+}
+
+main section:first-child {
+	padding: 50px;
+}
+.assiette {
+	text-align: right;
+	margin: auto;
+	position: relative;
+	padding-right: 50px;
+}
+#city {
+	position: absolute;
+	right: 35%;
+	top: 38%;
+}
+#plan {
+	position: relative;
+}
+.trait {
+	width: 100%;
+	border-top: 1px solid black;
+	position: absolute;
+	right: 50px;
+}
+.note {
+	display: flex;
+	height: 25px;
+	width: 200px;
+	background-color: black;
+	color: white;
+}
+.notetexte {
+	text-transform: uppercase;
+	margin-right: 20px;
+	margin-left: 3px;
+}
